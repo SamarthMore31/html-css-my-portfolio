@@ -1,0 +1,55 @@
+SAMARTH SHITAL MORE
+Course : B.Tech, Electronics & Communication Engineering (AIML), 2025
+Email : 1032221224@mitwpu.edu.in
+Mobile : 8104171764
+CGPA : 7.45
+ACADEMIC DETAILS
+COURSE
+
+INSTITUTE/COLLEGE
+
+BOARD/UNIVERSITY
+
+SCORE
+
+YEAR
+
+DIP
+
+School of Polytechnic
+
+MITWPU
+
+85.5 %
+
+2021
+
+CLASS X
+
+Cambridge School
+
+ICSE
+
+64.8 %
+
+2017
+
+Subjects / Electives
+Technical Proficiency
+
+Arduino UNO, C Programming, Raspberry Pi
+
+SUMMER INTERNSHIP / WORK EXPERIENCE
+PROJECTS
+Water Leak Detection system prototype - Water Conservation
+Oct 2023 - Dec 2023
+We made a Water Leakage Detection system prototype using Raspberry Pi Pico and Raindrops Detection sensor module. We used the
+Arduino IDE software for the code.
+Remote Controlled Surveillance Vehicle - Security
+Sep 2021 - Oct 2021
+We made a remote-controlled surveillance vehicle using Arduino UNO and Ultrasonic sensors. We used the open-source Arduino Software
+(IDE) to run and test the code.
+LANGUAGES KNOWN
+HINDI,ENGLISH,MARATHI
+
+

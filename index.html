@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Samarth More</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Samarth More</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+        </div>  
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/Untitled.png" alt="Samarth More profile picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Samarth More</h1>
+            <p class="section__text__p2">Engineer</p>
+            <div class="btn-container">
+                <div class="btn-container">
+                    <button class="btn btn-color-2" onclick="openAssetsFolder()">
+                        Download CV
+                    </button>
+                </div>
+                
+                <script>
+                    function openAssetsFolder() {
+                        // Specify the URL of the 'assets' folder
+                        var assetsFolderURL = '/assets/MY-RESUME.pdf';
+                
+                        // Open the 'assets' folder in a new window or tab
+                        window.open(assetsFolderURL, '_blank');
+                    }
+                </script>
+            <button 
+                class="btn btn-color-1"
+                onclick="location.href='./#contact'"
+                >
+                Contact Info
+            </button>
+            </div>
+            <div id="socials-container">
+                <img 
+                src="./assets/linkedin.png" 
+                alt="My Linkedin profile"
+                class="icon" 
+                onclick="location.href='https://www.linkedin.com/in/samarth-more-a68a7419b/'">
+                <img 
+                src="./assets/github.png" 
+                alt="My Github profile"
+                class="icon" 
+                onclick="location.href='https://www.linkedin.com/in/samarth-more-a68a7419b/'">
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get to know more</p>
+        <p class="title">About me</h1>
+            <div class="section-container">
+                <div class="section__pic-container">
+                    <img src="./assets/about pic.jpg"
+                    alt="Profile picture"
+                    class="about-pic"
+                >
+            </div>
+            <div class="about-details-container">
+                <div class="about-container">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="Experience icon"
+                        class="icon"
+                    >
+                    <h3>Experience</h3>
+                    <p>Hands-on projects with <br >Arduino UNO and, Raspberry Pi Pico <p>
+                </div>
+                <div class="details-container">
+                    <img src="./assets/education.png" alt="Education icon"
+                        class="icon"
+                    >
+                    <h3>Education</h3>
+                    <p>DIP, Diploma at Maharastra Institute of Technology <br >BTech. Bachelors Degree <p>
+                </div>
+            </div>
+            <div class="text-container">
+                <p><br>"A perpetual student, exploring the vast realms of knowledge and finding joy in the pursuit of wisdom."<br>"In the book of my life, each page tells a tale of resilience, authenticity, and a relentless pursuit of excellence. I am the author, crafting a narrative that speaks to the heart of my passions, the depth of my experiences, and the unwavering commitment to continuous self-improvement."
+                </p>
+            </div>
+            <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"
+            onclick="location.href='./#experience'"
+            >
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-detail-container">
+            <div class="about-container">
+                <div class="details-containers">
+                    <h2 class="experience-sub-title">Engineer</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon"
+                            >
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon"
+                            >
+                            <div>
+                                <h3>C</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon"
+                            >
+                            <div>
+                                <h3>C++</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon"
+                            >
+                            <div>
+                                <h3>Python</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"
+        onclick="location.href='./#projects'"
+        >
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-detail-container">
+            <div class="about-containers">
+            <div class="details-containers color-containers">
+                <div class="article-containers">
+                    <img src="./assets/project-1.png" alt="project 1"
+                    class="project-img"
+                    >
+                </div>
+                <h2 class="experience-sub-title project-title">project Report One</h2>
+                <div class="btn-containers">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://1drv.ms/w/c/c01454eac8e7d1e3/EePR58jqVBQggMDcUgAAAAAB9X3RVFgsA02MkYtGKbGplA?e=b6vL7C'"
+                    >
+                    onedrive
+                    </button>
+                </div>
+            </div>
+            <div class="details-containers color-containers">
+                <div class="article-containers">
+                    <img src="./assets/project-2.png" alt="project 2"
+                    class="project-img"
+                    >
+                </div>
+                <h2 class="experience-sub-title project-title">project Report Two</h2>
+                <div class="btn-containers">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://onedrive.live.com/edit.aspx?resid=C01454EAC8E7D1E3!s6e34a646357645eb9c5c9af38ca12c92&wdOrigin=OFFICECOM-WEB.START.EDGEWORTH&wdPreviousSessionSrc=HarmonyWeb&wdPreviousSession=de5cf855-f5cc-4ae7-9765-f0b9f051a768'"
+                    >
+                    onedrive
+                    </button>
+                </div>
+            </div>
+            <div class="details-containers color-containers">
+                <div class="article-containers">
+                    <img src="./assets/project-3.png" alt="project 3"
+                    class="project-img"
+                    >
+                </div>
+                <h2 class="experience-sub-title project-title">project Report Three</h2>
+                <div class="btn-containers">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://1drv.ms/w/c/c01454eac8e7d1e3/EePR58jqVBQggMDvUgAAAAAByaTjbw3ptMPIzm3KoWod2A?e=j9wl0D'"
+                    >
+                    onedrive
+                    </button>
+                </div>
+            </div>
+        </div>
+        </div>
+        <img src="./assets/arrow.png" alt="arrow icon" class="icon arrow"
+        onclick="location.href='./#contact'"
+        >
+    </section>
+    <SECtion id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="Email icon"
+                class="icon contact-icon"
+                >
+                <p><a href="moresamarth2001@gmail.com">Example@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="Linkedin icon"
+                class="icon contact-icon"
+                >
+                <p><a href="https://www.linkedin.com/in/samarth-more-a68a7419b/">LinkedIn</a></p>
+            </div>
+        </div>
+    </SECtion>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2023 Samarth More. All Rights Reserved</p>
+    </footer>
+ <script src="script.js"></script>   
+</body>
+</html>
